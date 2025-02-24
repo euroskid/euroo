@@ -1,5 +1,4 @@
 import type { FC } from "react";
-import useSWR from "swr";
 import moment from "moment";
 import { DownloadIcon } from "./DownloadIcon";
 import { LockIcon } from "./LockIcon";
