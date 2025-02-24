@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { SWRConfig } from 'swr';
 import { Home } from "./pages/Home";
 import { jsonFetcher } from "./utils/jsonFetcher";
 
